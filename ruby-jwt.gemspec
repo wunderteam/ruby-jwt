@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'codeclimate-test-reporter'
   spec.add_development_dependency 'codacy-coverage'
   spec.add_development_dependency 'rbnacl'
+  spec.add_development_dependency 'byebug'
   # RSASSA-PSS support provided by OpenSSL +2.1
   spec.add_development_dependency 'openssl', '~> 2.1'
 end
